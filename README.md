@@ -1,5 +1,6 @@
-# huggingface-to-google-cloud-storage
-Script to download from Hugging Face and upload to Cloud Storage
+# Hugging Face to Google Cloud Storage
+
+Script to download from Hugging Face and upload to Cloud Storage, with container image that can be deployed as a Cloud Run job.
 
 Expected environment variables:
 
