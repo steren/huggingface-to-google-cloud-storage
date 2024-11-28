@@ -21,6 +21,7 @@ gcloud run jobs deploy upload-model \
   --set-env-vars REPO="black-forest-labs/FLUX.1-dev" \
   --set-env-vars FILE="flux1-dev.safetensors" \
   --set-env-vars GCS_DESTINATION="gs://<bucket>/models/checkpoints/" \
+  --task-timeout 60m \
   --execute-now
 
 ```
