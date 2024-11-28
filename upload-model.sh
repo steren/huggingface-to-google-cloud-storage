@@ -5,7 +5,7 @@ echo "Google Cloud CLI config:"
 gcloud info
 
 echo "Hugging Face CLI config:"
-huggingface-cli whoami
+huggingface-cli env
 
 echo "Will now download $REPO $FILE and upload to $GCS_DESTINATION"
 
